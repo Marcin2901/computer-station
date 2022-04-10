@@ -1,0 +1,49 @@
+.home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background-image: url("../../Images/home-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 200px 0px;
+}
+
+.home__content {
+    max-width: 60rem;
+}
+
+.home__content h1 {
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+
+.home__content p {
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    color: #bbb;
+    padding: 1rem 0;
+}
+
+.home__content .btn {
+    /* width: 180px;
+    text-align: center; */
+    background-color: #c29c6e;
+}
+
+@media screen and (max-width: 990px) {
+    .home {
+        justify-content: center;
+        text-align: center;
+        background-position: left;
+    }
+    .home__content h1 {
+        font-size: 4.5rem;
+    }
+    
+    .home__content p {
+        font-size: 1.5rem;
+    }
+
+}

@@ -1,0 +1,47 @@
+.review .box--container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.review .box--container .box {
+    border: var(--border);
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.user {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    border: 3px solid var(--main-color);
+}
+
+.p-center {
+    object-position: center;
+}
+
+.review .box--container .box p {
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: #ccc;
+    padding: 2rem 0;
+}
+
+
+.review .box--container .box h3 {
+    font-size: 2rem;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.review .box--container .box i {
+    font-size: 1.5rem;
+    color: var(--main-color);
+}
+
+.fa-quote-left {
+    font-size: 4rem !important;
+}

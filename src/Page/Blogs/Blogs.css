@@ -1,0 +1,63 @@
+.blogs .box--container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.blogs .box--container .box {
+    border: var(--border);
+}
+
+.blogs .box--container .image {
+    height: 25rem;
+    overflow: hidden;
+    width: 100%;
+}
+
+.blogs .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blogs .box:hover .image img {
+    transform: scale(1.2);
+}
+
+.blogs .blogs-box--content {
+    padding: 2rem;
+}
+
+.blogs .blogs-box--content .title {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.blogs .blogs-box--content .title:hover {
+    color: var(--main-color);
+}
+
+.blogs .blogs-box--content span {
+    color: var(--main-color);
+    display: block;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.blogs .blogs-box--content p {
+    color: #ccc;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+
+
+
+
+
+
+
+
+
+

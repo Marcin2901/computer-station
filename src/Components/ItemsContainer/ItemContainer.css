@@ -1,0 +1,46 @@
+.item-container {
+    width: 400px;
+    height: calc(100vh - 130px);
+    background-color: #ffffffaa;
+    position: fixed;
+    z-index: 10;
+    top: 130px;
+    right: 0;
+    transform: scale(0);
+    transform-origin: top right;
+    padding: 1rem 0rem 1rem 1rem;
+    overflow-y: scroll;
+}
+
+.item-container.active {
+    transform: scale(1);
+}
+
+.item-container__content {
+    max-height: 65vh;
+    overflow-y: scroll;
+    padding-right: .5rem;
+}
+
+.item-container h3 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.summary span {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    background-image: linear-gradient(90deg, rgb(16, 139, 16), rgb(106, 225, 15));  
+    color: #fff;
+    border-radius: .5rem;
+    padding: 1rem 2rem;
+    margin-bottom: 2rem;
+}
